@@ -18,14 +18,18 @@ To run this code, you will need the following:
 
 You can install the required packages using the following command:
 
-```bash
+```
 pip install tensorflow matplotlib numpy seaborn
+
+```
 
 Clone this repository to your local machine:
 
-```bash
+```
 git clone https://github.com/razacode/audio_recognizing_keywords.git
 cd audio_recognizing_keywords
+
+```
 
     The notebook covers the following steps:
 
@@ -38,3 +42,7 @@ cd audio_recognizing_keywords
     Saving the trained model for future use.
     Performing predictions on new audio samples.
 
+![alt text](figures/frequncy.png)
+![alt text](figures/spectrogram.png)
+![alt text](figures/acc and loss.png)
+![alt text](figures/prediction.png)
