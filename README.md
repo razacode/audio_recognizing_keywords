@@ -31,18 +31,25 @@ cd audio_recognizing_keywords
 
 ```
 
-    The notebook covers the following steps:
+The notebook covers the following steps:
 
-    Importing necessary libraries and setting up the environment.
-    Mounting Google Drive to access the required dataset.
-    Importing and preprocessing the dataset.
-    Visualizing audio waveforms and spectrograms.
-    Building and training a convolutional neural network (CNN) model.
-    Evaluating the model's performance.
-    Saving the trained model for future use.
-    Performing predictions on new audio samples.
+Importing necessary libraries and setting up the environment.
+Mounting Google Drive to access the required dataset.
+Importing and preprocessing the dataset.
+Visualizing audio waveforms and spectrograms.
+Building and training a convolutional neural network (CNN) model.
+Evaluating the model's performance.
+Saving the trained model for future use.
+Performing predictions on new audio samples.
 
+## Visulaize a plot for a few audio waveforms
 ![alt text](figures/frequncy.png)
+
+## Transform the waveforms from the time-domain signals into the time-frequency-domain
 ![alt text](figures/spectrogram.png)
-![alt text](figures/acc and loss.png)
+
+## Plot accuracy and losses curve
+![alt text](figures/accloss.png)
+
+## Model prediction
 ![alt text](figures/prediction.png)
